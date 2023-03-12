@@ -1,16 +1,9 @@
-export const App = () => {
-  return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
-    </div>
-  );
-};
+import React, { Component } from 'react';
+
+import { LayoutStyled } from './LayoutStyled';
+
+export class App extends Component {
+  render() {
+    return <LayoutStyled>here will be gallery</LayoutStyled>;
+  }
+}
